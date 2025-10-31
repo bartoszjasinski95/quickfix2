@@ -5,7 +5,13 @@ target 'Runner' do
   use_frameworks!
   use_modular_headers!
 
-  flutter_install_all_ios_pods File.dirname(File.realpath(__FILE__))
+  # Flutter pods
+  pod 'Flutter', :path => File.dirname(__FILE__).to_s + '/Flutter'
+
+  # Dodaj wszystkie pluginy Flutter
+  flutter_application_path = File.expand_path('..', __FILE__)
+  load File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')
+  install_all_flutter_pods(flutter_application_path)
 end
 
 post_install do |installer|
