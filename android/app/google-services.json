@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "773535626217",
+    "project_id": "quickfix-bournemouth",
+    "storage_bucket": "quickfix-bournemouth.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773535626217:android:6f0683d27882821a061178",
+        "android_client_info": {
+          "package_name": "com.example.quickfix2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "773535626217-2ddoaur3en42eeok92bsgd1a02vku0ih.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.quickfix2",
+            "certificate_hash": "a8c0b13ad788137a8e685c1345c87f4f19203348"
+          }
+        },
+        {
+          "client_id": "773535626217-cfanu36qbg69696sh9uuv99hrh1m4k31.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVa-mo8SpW6bQkVWSjelc5KtD3qKEX32Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "773535626217-cfanu36qbg69696sh9uuv99hrh1m4k31.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
